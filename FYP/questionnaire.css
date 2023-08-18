@@ -1,0 +1,169 @@
+* {
+    margin: 0%;
+}
+
+
+
+header {
+    background-color: #0065A4;
+    color: #fff;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo-container {
+    display: flex;
+    align-items: center;
+}
+
+.logo {
+    max-width: 100px;
+    margin-right: 20px;
+}
+
+.icons {
+    display: flex;
+    align-items: center;
+}
+
+.icon {
+    font-size: 24px;
+    margin: 0 10px;
+    color: #fff;
+    cursor: pointer;
+}
+
+.form {
+    background-color: #0065A4;
+}
+
+button[type="submit"] {
+    background-color: #005AA5;
+    color: white;
+    padding: 5px 10px;
+    border: none;
+    cursor: pointer;
+}
+
+#main-content {
+    padding-top: 1%;
+    padding-left: 2%;
+    padding-right: 2%;
+}
+
+#application-form {
+    background-color: #f5f5f5;
+    padding: 1%;
+}
+
+select {
+    border: none;
+}
+
+fieldset {
+    margin-bottom: 20px;
+}
+
+input {
+    border: none;
+}
+
+fieldset label,
+fieldset input,
+fieldset select,
+fieldset textarea {
+    margin-bottom: 10px;
+    /* Adjust the value to set the desired gap size */
+}
+
+.form-textarea {
+    border: none;
+}
+
+.introduction {
+    padding: 10px;
+}
+
+.empty-row {
+    height: 10px;
+}
+
+#addSkillBtn {
+    background-color: #B7B6B6;
+    /* Change the background color here */
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    margin-bottom: 5px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#addSkill2Btn {
+    background-color: #B7B6B6;
+    /* Change the background color here */
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    margin-bottom: 5px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#addSkill3Btn {
+    background-color: #B7B6B6;
+    /* Change the background color here */
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    margin-bottom: 5px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#addSkill4Btn {
+    background-color: #B7B6B6;
+    /* Change the background color here */
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    margin-bottom: 5px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#addSkill5Btn {
+    background-color: #B7B6B6;
+    /* Change the background color here */
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    margin-bottom: 5px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#addEducationBtn {
+    background-color: #B7B6B6;
+    /* Change the background color here */
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    margin-bottom: 5px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#addSectionBtn {
+    background-color: #B7B6B6;
+    /* Change the background color here */
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    margin-bottom: 5px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+

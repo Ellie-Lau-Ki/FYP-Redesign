@@ -1,0 +1,92 @@
+head {}
+
+* {
+    min-height: 0;
+    min-width: 0;
+}
+
+*,
+*:before,
+*:after {
+    -webkit-box-sizing: inherit;
+    box-sizing: inherit;
+}
+
+user agent stylesheet head {
+    display: none;
+}
+
+:root {
+    --mm-sidebar-collapsed-size: 50px;
+    --mm-sidebar-expanded-size: 440px;
+}
+
+:root {
+    --mm-iconpanel-size: 50px;
+}
+
+:root {
+    --mm-iconbar-size: 50px;
+}
+
+:root {
+    --mm-line-height: 20px;
+    --mm-listitem-size: 44px;
+    --mm-navbar-size: 44px;
+    --mm-offset-top: 0;
+    --mm-offset-right: 0;
+    --mm-offset-bottom: 0;
+    --mm-offset-left: 0;
+    --mm-color-border: rgba(0, 0, 0, 0.1);
+    --mm-color-button: rgba(0, 0, 0, 0.3);
+    --mm-color-text: rgba(0, 0, 0, 0.75);
+    --mm-color-text-dimmed: rgba(0, 0, 0, 0.3);
+    --mm-color-background: #f3f3f3;
+    --mm-color-background-highlight: rgba(0, 0, 0, 0.05);
+    --mm-color-background-emphasis: rgba(255, 255, 255, 0.4);
+    --mm-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+
+html,
+button,
+input,
+select,
+textarea {
+    font-family: "Open Sans", sans-serif;
+}
+
+html {
+    font-size: 100%;
+    color: #303030;
+    overflow-y: scroll;
+    min-height: 100%;
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-font-smoothing: antialiased;
+    -ms-overflow-style: -ms-autohiding-scrollbar;
+}
+
+html {
+    font-family: sans-serif;
+    -ms-text-size-adjust: 100%;
+    -webkit-text-size-adjust: 100%;
+}
+
+html {
+    font-family: sans-serif;
+    -ms-text-size-adjust: 100%;
+    -webkit-text-size-adjust: 100%;
+}
+
+*,
+*:before,
+*:after {
+    -webkit-box-sizing: inherit;
+    box-sizing: inherit;
+}
+
+*,
+*:before,
+*:after {
+    -webkit-box-sizing: inherit;
+    box-sizing: inherit;
+}

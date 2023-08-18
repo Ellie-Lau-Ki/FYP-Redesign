@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Application Questionnaire</title>
+    <link rel="stylesheet" href="questionnaire.css">
+</head>
+
+<body>
+    <header>
+        <div class="logo-container">
+            <img src="assets/George_Brown_College_logo.svg.png" alt="Logo" class="logo">
+        </div>
+        <div class="icons">
+            <div class="icon">🔍</div>
+            <div class="icon">&#9776;</div>
+        </div>
+    </header>
+    <!-- Information Section -->
+    <div id="main-content">
+        
+        <div class="introduction"><p>Home/ Programs/ G418 Web Development - Front-End Design/ <span style="color:#005AA5";> Supplementary Requirements</p></span>
+            <div class="empty-row"></div>
+            <h2>Application Questionnaire</h2>
+            <div class="empty-row"></div>
+            <h3>Please ensure you read this entire page before submitting your
+                Application Questionnaire.</h3>
+                <div class="empty-row"></div>
+            <p>The following applies only if you receive communication from the
+                College stating that you are being considered for the next stage
+                of the admission process (the divisional select process).</p>
+                <div class="empty-row"></div>
+            <p>In order to evaluate your application for final admission, you
+                are asked to complete the Application Questionnaire form below.
+                Qualified applicants may also be invited for an interview.</p>
+                <div class="empty-row"></div>
+            <h4>Application Questionnaire Instructions</h4>
+            <div class="empty-row"></div>
+            <p>Complete the Application Questionnaire form below. It focuses on
+                queries related to past development experiences and software
+                applications the applicant is familiar with and comfortable
+                working in. The questionnaire is designed to describe your
+                future career objectives and intentions in the program. It
+                provides information to assist the Academic Review Committee in
+                assessing your potential for success in the program.</p>
+                <div class="empty-row"></div>
+            <p>The Application Questionnaire is to be completed solely by the
+                applicant and should be written in English.</p>
+                <div class="empty-row"></div>
+            <h4>Results</h4>
+            <div class="empty-row"></div>
+            <p>Your confidential results will be submitted by the School of
+                Design to the Admissions Office upon review of your Application
+                Questionnaire. The Admissions Office will then make a decision
+                on your application and you will receive notification via email
+                and by mail if you are successful. Please allow at least a week
+                for the review and submission of your results to the Admissions
+                Office. Please check <a href="https://stuview.georgebrown.ca/"><b>stuview.georgebrown.ca</b></a>
+                (application summary page) for an update on your status. If you
+                do receive an offer of admission, you should accept it on <a
+                    href="https://www.ontariocolleges.ca/home"><b>ontariocolleges.ca</b></a>
+                as soon as possible to reserve your seat in the program.</p>
+        </div>
+        <form id="application-form">
+
+            <!-- Section 1-->
+            <fieldset>
+                <legend>
+                    <h1>APPLICATION FORM</h1>
+                </legend>
+                <fieldset>
+                    <legend>
+                        <h2>Section 1:Personal Information</h2>
+                    </legend>
+                    <label for="first-name">First Name*:</label>
+                    <input type="text" id="first-name" name="first-name" required>
+                    <label for="middle-name">Middle Name:</label>
+                    <input type="text" id="middle-name" name="middle-name">
+                    <label for="last-name">Last Name*:</label>
+                    <input type="text" id="last-name" name="last-name" required>
+                    <label for="preferred-name">Preferred Name:</label>
+                    <input type="text" id="preferred-name" name="preferred-name" required>
+                    <label for="gbc-id">GBC Student ID*:</label>
+                    <input type="number" id="gbc-id" name="gbc-id" required>
+
+                    <fieldset>
+                        <legend><h4>Address</h4></legend>
+                        <label for="line1-address">Address Line 1*:</label>
+                        <input type="text" id="line1-address" name="line1-address" size="80" required>
+                        <br>
+                        <label for="line2-address">Address Line 2*:</label>
+                        <input type="text" id="line2-address" name="line2-address" size="80" required>
+                        <br>
+                        <label for="country">Country*:</label>
+                        <select id="country" name="country[]" required>
+                            <option value="" disabled selected>Select a Country</option>
+                        </select>
+                        <label for="city-address">City*:</label>
+                        <input type="text" id="city-address" name="city-address" required>
+                        <label for="postalcode-address">Postal Code*:</label>
+                        <input type="text" id="postalcode-address" name="postalcode-address" required>
+                    </fieldset>
+                    <fieldset>
+                        <legend><h4>Primary Phone Number</h4></legend>
+                        <label for="code-number">+1</label>
+                        <input type="text" id="code-number" name="code-number" size="5" required>
+                        <input type="number" id="main-number" name="main-number" required>
+                        <br>
+                        <label for="hours">Preferred Contact Hours*:</label>
+                        <select id="hours" name="hours[]" required>
+                            <option value="" disabled selected>Select a Timeslot</option>
+                        </select>
+                    </fieldset>
+
+                    <label for="email">Email Address*</label>
+                    <input type="text" id="email" name="email" size="40" required>
+                    <br>
+                    <label for="InternationalStudent">Are you an International Student?
+                        *</label>
+                    <select name="I-Student" id="I-Student" required>
+                        <option value="Blank">Select an Answer</option>
+                        <option value="Yes">Yes</option>
+                        <option value="No">No</option>
+                    </select>
+                </fieldset>
+
+
+                <fieldset>
+                    <legend>
+                        <h2>Section 2: Educational and Professional Background</h2>
+                    </legend>
+                    <!-- Educational Background Section -->
+                    <label for="posts${educationCount}">Highest Educational Level*</label>
+                    <select id="hours" name="hours[]" required>
+                        <option value="" disabled selected>Select Highest Educational Level</option>
+                        <option value="">Associates Degree</option>
+                        <option value="">Bachelor’s Degree</option>
+                        <option value="">Master’s Degree</option>
+                        <option value="">Doctorate Degree</option>
+                    </select>
+                    <fieldset>
+                        <legend><h4>Educational Background</h4></legend>
+                        <button id="addEducationBtn">+</button> Educational Background
+                        <div id="educationContainer"></div>
+                    </fieldset>
+
+                    <label for="posts${educationCount}">Years of Work Experience*</label>
+                    <select id="hours" name="hours[]" required>
+                        <option value="" disabled selected>Select Years of Work Experience</option>
+                        <option value="">0- 1 Year</option>
+                        <option value="">2-5 Years</option>
+                        <option value="">5-10 Years</option>
+                        <option value="">More than 10 Years</option>
+                    </select>
+                    <!-- Work Experience Section -->
+                    <fieldset>
+                        <legend><h4>Work Experience</h4></legend>
+                        <button id="addSectionBtn">+</button> Add Work Experience
+                        <div id="sectionContainer"></div>
+                    </fieldset>
+                </fieldset>
+
+                <!-- Section 3 -->
+                <fieldset>
+                    <legend>
+                        <h2>Section 3: Related Skills</h2>
+                    </legend>
+                    <fieldset>
+                        <legend><h4>Programming Languages</h4></legend>
+                        <button id="addSkillBtn">+</button> Programming Languages
+                        <div id="skillContainer"></div>
+                    </fieldset>
+                    <fieldset>
+                        <legend><h4>Frameworks</h4></legend>
+                        <button id="addSkill2Btn">+</button> Frameworks
+                        <div id="skill2Container"></div>
+                    </fieldset>
+                    <fieldset>
+                        <legend><h4>Technologies</h4></legend>
+                        <button id="addSkill3Btn">+</button> Technologies
+                        <div id="skill3Container"></div>
+                    </fieldset>
+                    <fieldset>
+                        <legend><h4>Design Software</h4></legend>
+                        <button id="addSkill4Btn">+</button> Design Software
+                        <div id="skill4Container"></div>
+                    </fieldset>
+                    <fieldset>
+                        <legend><h4>Design Tools</h4></legend>
+                        <button id="addSkill5Btn">+</button> Design Tools
+                        <div id="skill5Container"></div>
+                    </fieldset>
+
+                    <label for="email">Link to Portfolio (if any) </label>
+                    <input type="text" id="email" name="email" size="40" required><br>
+                    <label for="email">In a paragraph (or so), provide an overview of a digital project you participated
+                        in
+                        (either for a client or a personal project). Some ideas of what you might include: client/person
+                        the
+                        project was for, your role on the project, the stated goals of the project, the overall outcome,
+                        how/why
+                        the project was impactful, what technologies were used, what design methodologies were employed,
+                        what
+                        lessons you learned, and if/how the project is currently being used. *</label><br>
+                    <div class="form-textarea-wrapper">
+                        <textarea
+                            data-drupal-selector="edit-in-a-paragraph-or-so-provide-an-overview-of-a-digital-project"
+                            id="edit-in-a-paragraph-or-so-provide-an-overview-of-a-digital-project"
+                            name="in_a_paragraph_or_so_provide_an_overview_of_a_digital_project" rows="5" cols="60"
+                            class="form-textarea required resize-vertical" required="required"
+                            aria-required="true"></textarea>
+                    </div><br>
+                    <label for="email">Describe your personal skills, attributes and experiences. How will they assist
+                        you
+                        to
+                        succeed in the Web Development - Front-End Design program. *</label><br>
+                    <div class="form-textarea-wrapper"><textarea
+                            data-drupal-selector="edit-in-a-paragraph-or-so-provide-an-overview-of-a-digital-project"
+                            id="edit-in-a-paragraph-or-so-provide-an-overview-of-a-digital-project"
+                            name="in_a_paragraph_or_so_provide_an_overview_of_a_digital_project" rows="5" cols="60"
+                            class="form-textarea required resize-vertical" required="required"
+                            aria-required="true"></textarea>
+                    </div>
+
+                </fieldset>
+
+                <!-- Section 4 -->
+                <fieldset>
+                    <legend>
+                        <h2>Section 4: Personnel and Career Gols</h2>
+                    </legend>
+                    <label for="email">Outline your personal goals and career objectives in the web development and
+                        design
+                        industry. *</label><br>
+                    <div class="form-textarea-wrapper"><textarea
+                            data-drupal-selector="edit-in-a-paragraph-or-so-provide-an-overview-of-a-digital-project"
+                            id="edit-in-a-paragraph-or-so-provide-an-overview-of-a-digital-project"
+                            name="in_a_paragraph_or_so_provide_an_overview_of_a_digital_project" rows="5" cols="60"
+                            class="form-textarea required resize-vertical" required="required"
+                            aria-required="true"></textarea>
+                    </div>
+                    <label for="email">What do you expect to learn in the Web Development - Front-End Design program?
+                        *</label><br>
+                    <div class="form-textarea-wrapper"><textarea
+                            data-drupal-selector="edit-in-a-paragraph-or-so-provide-an-overview-of-a-digital-project"
+                            id="edit-in-a-paragraph-or-so-provide-an-overview-of-a-digital-project"
+                            name="in_a_paragraph_or_so_provide_an_overview_of_a_digital_project" rows="5" cols="60"
+                            class="form-textarea required resize-vertical" required="required"
+                            aria-required="true"></textarea>
+                    </div>
+
+
+                </fieldset>
+                <legend><button type="submit">Submit</button></legend>
+            </fieldset>
+    </div>
+
+    </fieldset>
+
+    </form>
+
+    <script src="questionnaire.js"></script>
+</body>
+
+</html>
